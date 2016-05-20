@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+     >
+	
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:background="@drawable/status_bar_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical" 
+        >
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="36dp"
+            android:src="@drawable/logo"
+             />
+
+        <LinearLayout
+            android:layout_width="550dp"
+            android:layout_height="30dp"
+            android:background="@drawable/status_bar_ad_bg" 
+           	android:layout_marginLeft="160dp"
+            >
+				<ViewFlipper
+				 android:id="@+id/flipper"      
+				 android:layout_width="match_parent"      
+				 android:layout_height="match_parent" 
+				 android:paddingLeft="15dp"     
+				 >      
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textColor="@color/text_white"
+				    android:textSize="22dp"
+				    android:text="@string/index_ad"
+				    />
+				 </ViewFlipper>
+        </LinearLayout>
+        <com.moon.android.launcher.thailand.view.StatusBar 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@id/statusbar"
+            />
+    </RelativeLayout>
+    
+    <!-- navigation button -->
+    <LinearLayout
+        android:id="@id/navigation_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navigation_bg"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingLeft="80dp"/>
+        
+    <android.support.v4.view.ViewPager 
+        android:id="@id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        
+        >
+        </android.support.v4.view.ViewPager>
+
+</LinearLayout>

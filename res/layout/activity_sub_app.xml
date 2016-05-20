@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        
+        <com.moon.android.launcher.thailand.view.CleanBtn 
+            android:id="@+id/clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_produce"
+            android:textColor="@color/top_btn_color"
+            android:background="@drawable/bg_btn_top"
+            android:layout_marginLeft="30dp"
+            android:layout_centerVertical="true"/>
+        
+        
+        <com.moon.android.launcher.thailand.view.NetworkTestBtn 
+            android:id="@+id/network_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/network_test"
+            android:textColor="@color/top_btn_color"
+            android:background="@drawable/bg_btn_top"
+            android:layout_marginLeft="150dp"
+            android:layout_centerVertical="true"/>
+        
+        <com.moon.android.launcher.thailand.view.HelpBtn
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/help"
+            android:textColor="@color/top_btn_color"
+            android:background="@drawable/bg_btn_top"
+            android:layout_marginLeft="280dp"
+            android:layout_centerVertical="true"/>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="350dp"
+            android:layout_centerInParent="true"
+            >
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="20dp">
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/machine_code"
+                    style="@style/text_20_f2f2f2"
+                    android:layout_marginRight="5dp"/>
+                <com.moon.android.launcher.thailand.view.MacTextView  
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/text_20_f2f2f2"
+                    />
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/validity"
+                    style="@style/text_20_f2f2f2"
+                    android:layout_marginRight="5dp"/>
+                
+                <com.moon.android.launcher.thailand.view.ValidityView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/text_20_f2f2f2"
+                    />
+                
+                
+            </LinearLayout>
+        </LinearLayout>
+        
+        <com.moon.android.launcher.thailand.view.StatusBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dp"
+            android:id="@id/statusbar"
+            />
+    </RelativeLayout>
+	
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="90dp">
+        <com.moon.android.launcher.thailand.view.AdScrollView 
+            android:id="@+id/ad_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    
+    
+     <TextView 
+         android:id="@+id/title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         style="@style/text_18_ffffff"
+         android:singleLine="true"
+         android:ellipsize="marquee"
+         android:layout_alignParentBottom="true"
+         android:layout_marginLeft="40dp"
+         android:layout_marginBottom="232dp" 
+         />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/navigation_to_bottom" 
+        >
+        <GridView
+            android:id="@id/welcome_country_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@drawable/bg_nav_app"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:horizontalSpacing="20dp"
+            >
+        </GridView>
+    </RelativeLayout>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/marquee_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/scroll_text_to_bottom"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+        <com.moon.android.launcher.thailand.view.AutoScrollTextView
+            android:id="@+id/auto_scroll_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center_vertical"
+            style="@style/text_24_f2f2f2"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+        	android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="false"
+            />
+    </LinearLayout>
+    
+</RelativeLayout>

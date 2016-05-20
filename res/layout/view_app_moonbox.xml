@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:padding="5dp"
+    >
+    
+    <com.moon.android.launcher.thailand.PageMoonBoxView
+        android:id="@+id/page_moonbox_view2"
+        android:tag="@+id/page_moonbox_tag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

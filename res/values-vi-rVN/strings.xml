@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">moonrise</string>
+    <string name="chinese_simple">中文简体</string>
+    <string name="english">English</string>
+    <string name="Vietnamese">tiếng Việt</string>
+    <string name="Chinese_traditional ">中文繁體</string>
+    <string name="japan">日本語</string>
+    <string name="korea">한국의</string>
+    <string name="index">Trang Chính</string>
+    <string name="apps">Ứng dụng</string>
+    <string name="app_manager">Quản Lý Ứng Dụng</string>
+    <string name="setting">Cài Đặt</string>
+    <string name="my_MoonRise">MoonRise</string>
+    <string name="has_to_first">Đầu Trang</string>
+    <string name="has_to_last">Trang Cuối</string>
+    <string name="unstall">Tháo Bỏ</string>
+    <string name="to_desktp">Đem Ra Trang Chính</string>
+    <string name="cancel_to_desktp">Xoá Khỏi Trang Chính</string>
+    <string name="desktop_noapp_prompt">Chưa Có Ứng Dụng</string>
+    <string name="mac">MAC:</string>
+    <string name="hardware_name">Phiên Bản Ổ Cứng:</string>
+    <string name="version">Phiên Bản:</string>
+    <string name="message">Thông Báo:</string>
+    <string name="welcome_banner">Thế Giới Giải Trí Của Bạn Xem Phim Thật Đã, Cả Nhà Cùng Vui</string>
+    <string name="soft_version">Phiên Bản Phần Mềm:</string>
+    <string name="broswer">Internet</string>
+    <string name="file">Quản Lý Tập Tin</string>
+    <string name="video">Video</string>
+    <string name="settings">Cài Đặt</string>
+    <string name="gallery">Thư Viện</string>
+    <string name="music">Nhạc</string>
+    <string name="download">Tải Xuống</string>
+    <string name="appstore">Kho Ứng Dụng</string>
+    <string name="app_not_found">Không Tìm Thấy Ứng Dụng</string>
+    <string name="title_alert">Thông Báo</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Huỷ Bỏ</string>
+    <string name="jiong">Trang Chính Đầy</string>
+    <string name="prompt">Nhắc Nhở</string>
+    <string name="update">Cập Nhật</string>
+    <string name="index_ad">Cám ơn bạn đã sử dụng MoonRise - Thế Giới Giải Trí Của Bạn Xem Phim Thật Đã, Cả Nhà Cùng Vui</string>
+    <string name="startdownload">Tải Xuống Để Cập Nhật</string>
+    <string name="dlna">DLNA</string>
+    <string name="upgrade">Nâng Cấp MoonRise</string>
+    <string name="box_setting">Cài Đặt MoonRise</string>
+    <string name="google_play">Google play</string>
+    <string name="france">français</string>
+    <string name="pree_any_key_to_return">Nhấn Bất Kì Nút Nào Để Về Trang</string>
+    
+    <string name="disclaimer">Trách Nhiệm Pháp Lý</string>
+    <string name="disclaimer_content">\u3000\u3000MoonRise is a high-definition multimedia player network device based on Android OS(hereinafter referred to as "The device"),which is released by All Day Group (Thailand) Co. LTD. (hereinafter referred to as "The Company").\n
+			\u3000\u3000In order to get using experience by the device, you may install third-party application(s) from your own resources such as internet.the company is not responsible for any third-party applications related to the correctness, accuracy, and legitimacy of the contents. The users must abide by any applicable laws, regulations, rules or codes accepted in their respective local jurisdictions. Do not install and use any illegal contents such as pornography, violence, and application containing copyright content.\n 
+			\u3000\u3000Thank you for purchasing MoonRise.Please send email(Fmttv168@gmail.com) if you have any suggestions,it would be very helpful to improve the device.</string>
+    <string name="agree_disclaimer">Đồng ý</string>
+    <string name="read_disclaimer">Đồng ý</string>
+    <string name="save_mac_fail">Save mac fial!</string>
+	<string name="save_mac_success">Save mac success!</string>
+	<string name="player_null">Please install the player, otherwise unable to play</string>
+	<string name="network_not_connect">Network not connect</string>
+	<string name="ready_play">Ready play</string>
+	<string name="appstore2">App Store</string>
+	
+	
+	<string name="n_live">sống</string>
+	<string name="n_live_back">live Video</string>
+	<string name="n_film">Bộ phim</string>
+	<string name="n_drama">phim truyền hình</string>
+	<string name="n_learn">Chương trình Giảng dạy</string>
+	<string name="n_adult">18+</string>
+	<string name="n_ktv">KTV &amp; MV</string>
+	<string name="n_back">trở về</string>
+	<string name="n_other">khác</string>
+	<string name="h_home">To desktop</string>
+	<string name="h_myapp">App</string>
+	<string name="h_app_mana">Quản lý ứng dụng</string>
+	<string name="h_app_grden">App garden</string>
+	<string name="h_app_internet">Internet</string>
+	<string name="h_app_file">File Browser</string>
+	<string name="h_app_setting">thiết lập</string>
+	<string name="h_app_MoonRise">MoonRise</string>
+	<string name="app_and_set">App &amp; thiết lập</string>
+	<string name="machine_code">MAC</string>
+	<string name="validity">Hiệu lực</string>
+	<string name="clear_produce">Clean</string>
+	<string name="network_test">Network test</string>
+	
+	<string name="live_taiwan">Live Taiwan</string>
+	<string name="live_tiyu">Live Sports</string>
+	<string name="live_dalu">Live China</string>
+	<string name="live_hk">Live HK</string>
+	<string name="live_universal">Live International</string>
+	<string name="live_yuenan">Live Vietnam</string>
+	<string name="live_lookback">Looking Back</string>
+	<string name="live_other">More apps</string>
+	<string name="help">Help</string>
+</resources>
